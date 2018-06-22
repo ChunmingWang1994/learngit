@@ -88,9 +88,12 @@ $ git commit -m "remove test.txt"
 $ ssh-keygen -t rsa -C "minwan1994@163.com"
 关联仓库
 $ git remote add origin git@github.com:ChunmingWang1994/learngit.git
-把本地库内容推送到远程库
-$ git push -u origin master
 
+把本地库内容推送到远程库
+第一次推送master分支的所有内容
+$ git push -u origin master
+之后可直接推送最新修改
+$ git push origin master
 
 
 
