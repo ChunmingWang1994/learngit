@@ -71,6 +71,28 @@ $ git checkout -- readme.txt
 把暂存区的修改撤销掉（unstage），重新放回工作区
 $ git reset HEAD readme.txt
 
+删除工作区文件
+$ rm test.txt
+
+删错了，复原
+$ git checkout -- test.txt
+
+从版本库中删除该文件
+$ git rm test.txt
+$ git commit -m "remove test.txt"
+
+
+
+远程仓库
+创建SSH Key
+$ ssh-keygen -t rsa -C "minwan1994@163.com"
+关联仓库
+$ git remote add origin git@github.com:ChunmingWang1994/learngit.git
+把本地库内容推送到远程库
+$ git push -u origin master
+
+
+
 
 
 
