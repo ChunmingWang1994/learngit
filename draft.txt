@@ -19,3 +19,20 @@ Initialized empty Git repository in /Users/michael/learngit/.git/
 
 把文件添加到仓库
 $ git add xxx.txt
+
+
+把文件提交到仓库
+$ git commit -m "wrote a readme file"
+
+简单解释一下git commit命令，-m后面输入的是本次提交的说明，
+可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。
+
+可以add很多文件，然后统一提交
+
+
+
+查看仓库状态
+$ git status
+
+
+$ git diff readme.txt 
