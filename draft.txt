@@ -57,9 +57,19 @@ $ git reflog
 
 
 
+查看工作区和版本库里面最新版本的区别
+$ git diff HEAD -- readme.txt 
 
 
+$ cat readme.txt
 
+
+把readme.txt文件在工作区的修改全部撤销，让这个文件
+回到最近一次git commit或git add时的状态。
+$ git checkout -- readme.txt
+
+把暂存区的修改撤销掉（unstage），重新放回工作区
+$ git reset HEAD readme.txt
 
 
 
