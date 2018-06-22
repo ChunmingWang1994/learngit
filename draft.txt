@@ -46,6 +46,9 @@ $ git log --pretty=oneline
 
 把版本回退到上一个版本
 $ git reset --hard HEAD^
+把版本回退到特定的版本
+$ git reset --hard 1094a
+1094a为commit id，前几位即可
 
 
 
