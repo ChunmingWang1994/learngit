@@ -96,16 +96,35 @@ $ git push -u origin master
 $ git push origin master
 
 
+从远程库克隆
+$ git clone git@github.com:ChunmingWang1994/gitskills.git
+
+查看工作空间文件名
+$ ls
+
+https://github.com/michaelliao/gitskills.git
 
 
 
+创建dev分支，然后切换到dev分支
+$ git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
 
+查看当前分支
+$ git branch
+当前分支前面会标一个*号
 
+切换回master分支
+$ git checkout master
 
+把dev分支的工作成果合并到master分支上
+$ git merge dev
+git merge命令用于合并指定分支到当前分支
 
-
-
-
+删除dev分支
+$ git branch -d dev
 
 
 
